@@ -16,7 +16,7 @@ function SportsCar(make, model, topSpeed) {
 SportsCar.prototype = Object.create(car.prototype);
 SportsCar.prototype.constructors=SportsCar;
 
-SportsCar.prototype.getmakemodel=function() {
+SportsCar.prototype.getTopSpeed=function() {
 	return this.topspeed;
 }
 // Do not change the code below
